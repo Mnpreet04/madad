@@ -17,7 +17,7 @@ const Homepage = () => {
       <div className={styles.button_container}>
         <button>Discover</button>
       </div>
-      <div>
+      <div className={styles.tile_container}>
         <Tile icon={icon} name="Driving Instruction" heading="Driving" />
       </div>
     </div>

@@ -30,3 +30,8 @@
 .content_container span {
   color: black;
 }
+
+.tile_container {
+  display: flex;
+  justify-content: center;
+}

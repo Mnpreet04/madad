@@ -1,0 +1,28 @@
+.tile {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 1%;
+}
+.tile img {
+  width: 30px;
+  height: 35px;
+}
+
+.picture,
+.heading,
+.subheading {
+  display: flex;
+}
+
+.heading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+
+.subheading h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}

@@ -10,9 +10,9 @@ interface TileProps {
 const Tile = ({ icon, name, heading }: TileProps) => {
   return (
     <div className={styles.tile}>
-      <img src={icon} />
-      <h1>{name}</h1>
-      <h3>{heading}</h3>
+      <div className={styles.picture}><img src={icon} /></div>
+      <div className={styles.heading}><h1>{name}</h1></div>
+      <div className={styles.subheading}><h3>{heading}</h3></div>
     </div>
   );
 };
