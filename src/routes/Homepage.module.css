@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Cabin&family=Manrope&family=Montserrat:wght@100;300;500&family=Raleway&family=Roboto+Mono:wght@500&family=Roboto+Slab:wght@700&family=Ubuntu&display=swap");
+
+.hompage_container {
+  background-color: #f0f1f1;
+  height: 100vh;
+}
+.content_container,
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
+.button_container button {
+  background-color: black;
+  color: white;
+  width: 10vw;
+  height: 5vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.content_container p {
+  width: 60%;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  color: #736f72;
+  font-size: 40px;
+}
+
+.content_container span {
+  color: black;
+}
