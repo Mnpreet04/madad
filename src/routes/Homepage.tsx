@@ -18,7 +18,7 @@ const Homepage = () => {
         <button>Discover</button>
       </div>
       <div className={styles.tile_container}>
-        <Tile icon={icon} name="Driving Instruction" heading="Driving" />
+        <Tile path="/information" icon={icon} name="Driving Instruction" heading="Driving" />
       </div>
     </div>
   );

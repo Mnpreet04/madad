@@ -1,3 +1,4 @@
+/*
 .tile {
   background-color: white;
   display: flex;
@@ -25,4 +26,43 @@
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 400;
+}
+*/
+
+.tile{
+  display:flex;
+  flex-direction: column;
+  margin-left: 8%;
+  margin-top: 5%;
+  height: 30vh;
+  width: 20vw;
+  background-color: rgb(214, 228, 214);
+}
+
+.tile:hover {
+  background-color: #bcd1c0;
+}
+
+.tile_link{
+  text-decoration: none;
+}
+
+.tile h1{
+  font-size: 3.5vh;
+  margin-left: 9%;
+  color: black;
+}
+
+.tile h3{
+  font-size: 2.5vh;
+  opacity: 0.7;
+  margin-left: 9%;
+  color:black
+}
+
+.tile_img{
+  width: 15%;
+  height: 25%;
+  margin-top:8%;
+  margin-left: 8%;
 }
