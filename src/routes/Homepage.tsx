@@ -18,7 +18,24 @@ const Homepage = () => {
         <button>Discover</button>
       </div>
       <div className={styles.tile_container}>
-        <Tile path="/information" icon={icon} name="Driving Instruction" heading="Driving" />
+        <Tile
+          path="/driving-instructor"
+          icon={icon}
+          name="Driving Instructor"
+          heading="Driving"
+        />
+        <Tile
+          path="/driving-instructor"
+          icon={icon}
+          name="Driving Instructor"
+          heading="Driving"
+        />
+        <Tile
+          path="/driving-instructor"
+          icon={icon}
+          name="Driving Instructor"
+          heading="Driving"
+        />
       </div>
     </div>
   );

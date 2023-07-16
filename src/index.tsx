@@ -15,9 +15,9 @@ const router = createBrowserRouter([
     errorElement: <Invalidpage />,
   },
   {
-    path: "/information",
-    element:<Information/>
-  }
+    path: "/driving-instructor",
+    element: <Information />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(

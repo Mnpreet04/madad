@@ -25,16 +25,6 @@
   top: 50%;
 }
 
-@keyframes lineH {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 4.2vw;
-    opacity: 1;
-  }
-}
-
 .after_line:after {
   content: "";
   display: block;
@@ -56,7 +46,8 @@
 .lang_dropdown {
   text-align: center;
   align-self: center;
-  position: relative;
+  position: absolute;
+  right: 2%;
 }
 .lang_dropdown select {
   width: 50px;
