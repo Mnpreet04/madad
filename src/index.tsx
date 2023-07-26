@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./routes/Homepage";
 import Invalidpage from "./routes/Invalidpage";
 import Information from "./components/Information";
+import BeginerDriverProgram from "./routes/BeginerDriverProgram";
+import BookInstructor from "./components/BookInstructor";
 
 const router = createBrowserRouter([
   {
@@ -15,9 +17,17 @@ const router = createBrowserRouter([
     errorElement: <Invalidpage />,
   },
   {
-    path: "/driving-instructor",
+    path: "/packageInformation",
     element: <Information />,
   },
+  {
+    path: "/drivingInstructor",
+    element: <BookInstructor/>,
+  },
+  {
+    path:"/beginerDriverEducation",
+    element: <BeginerDriverProgram/>
+    }
 ]);
 
 const root = ReactDOM.createRoot(

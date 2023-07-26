@@ -1,0 +1,45 @@
+.option_item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 2.3rem 15rem;
+    width: 60%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    background-color: #b3a9a9;
+  }
+  
+  .option__description {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 1rem;  
+    flex: 1;
+  }
+
+  .option__price {
+    font-size: 0.8rem;
+    color: white;
+    background-color: #b19dbb;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 30px;
+  }
+
+  .option_link{
+    text-decoration: none;
+  }
+
+  .ai{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .icon{
+    font-size: 2rem;
+    background-color: #9a7da8;
+    border-radius:20px ;
+  }
+

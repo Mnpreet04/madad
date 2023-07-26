@@ -3,6 +3,7 @@ import Tile from "../components/Tile";
 import Navbar from "../components/Navbar";
 import styles from "./Homepage.module.css";
 import icon from "../assets/car.png";
+import FeedBack from "../components/FeedBacks";
 
 const Homepage = () => {
   return (
@@ -19,24 +20,25 @@ const Homepage = () => {
       </div>
       <div className={styles.tile_container}>
         <Tile
-          path="/driving-instructor"
+          path="/drivingInstructor"
           icon={icon}
           name="Driving Instructor"
           heading="Driving"
         />
         <Tile
-          path="/driving-instructor"
+          path="/packageInformation"
           icon={icon}
-          name="Driving Instructor"
+          name="Package Information"
           heading="Driving"
         />
         <Tile
-          path="/driving-instructor"
+          path="/drivingInstructor"
           icon={icon}
           name="Driving Instructor"
           heading="Driving"
         />
       </div>
+      <FeedBack/>
     </div>
   );
 };

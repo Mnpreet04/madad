@@ -1,0 +1,16 @@
+.feedback{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback_container{
+    text-align: center;
+}
+
+.feedbackAlign{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+.feedback{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    background-color:white;
+    padding: 1%;
+    width: 20vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 2%;
+}
+
